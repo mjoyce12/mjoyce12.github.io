@@ -1,14 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 333 333" style="enable-background:new 0 0 333 333;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#ABD2EA;}
-</style>
-<path class="st0" d="M233,105c0,0-18,17-10,27c9,10,55,41,66,32c10-10,20-38-2-64c-40-48-200-48-240,0c-22,26-13,54-2,64
-	c10,9,57-22,65-32s-9-27-9-27C136,85,195,84,233,105z"/>
-<path class="st0" d="M167,161c16,0,30,10,30,21c0,12-14,22-30,22c-17,0-30-10-30-22C137,171,150,161,167,161z"/>
-<path class="st0" d="M128,255v10c0,2-2,5-5,5h-16c-3,0-5-3-5-5v-10l-20-1c0,0-16,0-14-38s11-45,23-53s38-19,37-54l16,1v23
-	c16,0,29,0,45,0v-23l16-1c-1,35,25,46,37,54s21,15,23,53c3,38-14,38-14,38l-20,1v10c0,2-2,5-4,5h-17c-3,0-5-3-5-5v-10
-	C180,255,154,255,128,255z"/>
-</svg>
+<svg fill="#ABD3EB" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;" viewBox="0 0 333 333" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd"><defs><style type="text/css">
+   
+    .fil0 {fill:#ABD3EB}
+   
+  </style></defs><g><path class="fil0" d="M233 105c0,0 -18,17 -10,27 9,10 55,41 66,32 10,-10 20,-38 -2,-64 -40,-48 -200,-48 -240,0 -22,26 -13,54 -2,64 10,9 57,-22 65,-32 8,-10 -9,-27 -9,-27 35,-20 94,-21 132,0zm-66 56c16,0 30,10 30,21 0,12 -14,22 -30,22 -17,0 -30,-10 -30,-22 0,-11 13,-21 30,-21zm-39 94l0 10c0,2 -2,5 -5,5l-16 0c-3,0 -5,-3 -5,-5l0 -10 -20 -1c0,0 -16,0 -14,-38 2,-38 11,-45 23,-53 12,-8 38,-19 37,-54l16 1 0 23c16,0 29,0 45,0l0 -23 16 -1c-1,35 25,46 37,54 12,8 21,15 23,53 3,38 -14,38 -14,38l-20 1 0 10c0,2 -2,5 -4,5l-17 0c-3,0 -5,-3 -5,-5l0 -10c-25,0 -51,0 -77,0z"></path></g></svg>
