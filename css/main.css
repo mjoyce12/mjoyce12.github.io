@@ -21,7 +21,7 @@ html, body {
 
 body  {
 margin: 0;
-font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;	
 font-size: 13pt;
 line-height: 120%;
 font-style: normal;
@@ -32,22 +32,28 @@ background-color:#FFF;
 padding:0px;
 }
 
-H1, H2, H3, H4, H5, H6 { font-family: 'Source Sans Pro', sans-serif;	}
+H1, H2, H3, H4, H5, H6 { 
+font-family: 'Yanone Kaffeesatz', sans-serif;	
+}
+
 H1 {
-font-size: 180%;
-letter-spacing:1px;
-line-height:190%;
+font-size: 400%;
+letter-spacing:3px;
+text-transform:uppercase;
 font-weight:300;
 vertical-align:bottom;
+color:#37475A;
+margin-bottom: 0px;
+line-height: 100%;
 }
 
 H2 {
-font-size: 160%;
-text-transform:uppercase;
+font-size: 180%;
 font-weight:400;
 letter-spacing:1px;
-line-height: 130%;
 margin-bottom:0px;
+color: #0A97E8;
+line-height: 100%;
 }
 
 H3 {
@@ -67,7 +73,7 @@ font-weight:600;
 #layout 
 {
     display: flex;
-    margin-top: 80px;
+  
 }
 
 #layout .content {
@@ -78,4 +84,80 @@ font-weight:600;
 #layout .content #container
 {
 	margin-top: 0;
+}
+
+#leftnav {
+    background-color: #37475A;
+    color: #ABD3EB;
+    width: 300px;
+    padding: 20px;
+	font-size: 120%;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.blue_panel {
+background-color: #ABD3EB;
+width: 100%;
+margin: 0px;
+padding: 20px 50px;
+min-height: 400px;
+	
+}
+
+.container {
+width: 100%;
+}
+
+#content {
+padding: 15px 50px;
+}
+
+.box{
+width: 250px;
+height: 300px;
+padding: 15px;
+}
+
+.box img {
+width: 50px;
+float:left;
+margin-right: 12px;	
+}
+
+
+.photo {
+width: 300px;
+position: absolute;
+top: 20px;
+display: block;
+}
+
+.photo img {
+width: 250px;
+border-radius: 50%;
+display: block;
+}
+
+.footer {
+min-height: 100px;
+color: #222;
+padding: 30px;
+background-color: #eee;
+text-align: center;
+}
+
+.card {
+width: 100%;
+padding: 20px;
+height: 80px;
+margin-bottom: 20px;
+}
+
+.card h2 {
+	float:left;
+	margin-right: 30px;
+	text-transform: uppercase;
+	font-size: 100%;
+	width: 150px;
 }
