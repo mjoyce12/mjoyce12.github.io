@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+
 /*  RESPONSIVE GRID SECTIONS  */
 
 .section {
@@ -150,7 +151,6 @@
 	.span_1_of_8, .span_2_of_8, .span_3_of_8, .span_4_of_8, .span_5_of_8, .span_6_of_8, .span_7_of_8, .span_8_of_8 { width: 100%; }
 }
 
-/*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_1_of_5, .span_2_of_5, .span_3_of_5, .span_4_of_5, .span_5_of_5 { width: 100%; }
