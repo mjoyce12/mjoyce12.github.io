@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+/*  RESPONSIVE GRID SECTIONS  */
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% .99%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/* GRID OF TWO */
+.span_1_of_2 {
+    width: 48.2%;
+}
+.span_2_of_2 {
+	width: 100%;
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+	width: 100%;
+}
+.span_2_of_3 {
+	width: 66.1%;
+}
+.span_1_of_3 {
+	width: 32.2%;
+}
+
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 75%;
+}
+.span_2_of_4 {
+	width: 48%;
+}
+.span_1_of_4 {
+	width: 24.8%;
+}
+.col.span_1_of_4 {
+    margin: 0 0 1px 1px;
+}
+
+
+/*  GRID OF FIVE  */
+.span_5_of_5 {
+	width: 100%;
+}
+.span_4_of_5 {
+	width: 79.68%;
+}
+.span_3_of_5 {
+	width: 59.36%;
+}
+.span_2_of_5 {
+	width: 39.04%;
+}
+.span_1_of_5 {
+	width: 18.72%;
+}
+
+/*  GRID OF SEVEN   ============================================================================= */
+
+
+.span_7_of_7 {
+	width: 100%;
+}
+
+.span_6_of_7 {
+	width: 85.48%;
+}
+
+.span_5_of_7 {
+  	width: 70.97%;
+}
+
+.span_4_of_7 {
+  	width: 56.45%;
+}
+
+.span_3_of_7 {
+  	width: 41.94%;
+}
+
+.span_2_of_7 {
+  	width: 27.42%;
+}
+
+.span_1_of_7 {
+  	width: 13.8%;
+}
+.col.span_1_of_7 {
+    margin: 0 0 0 5px;
+}
+
+
+/*  GRID OF EIGHT  */
+.span_8_of_8 {
+	width: 100%;
+}
+
+.span_7_of_8 {
+  	width: 87.35%;
+}
+
+.span_6_of_8 {
+  	width: 74.7%;
+}
+
+.span_5_of_8 {
+  	width: 62.05%;
+}
+
+.span_4_of_8 {
+  	width: 49.4%;
+}
+
+.span_3_of_8 {
+  	width: 36.75%;
+}
+
+.span_2_of_8 {
+  	width: 24.1%;
+}
+
+.span_1_of_8 {
+  	width: 11.45%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_8, .span_2_of_8, .span_3_of_8, .span_4_of_8, .span_5_of_8, .span_6_of_8, .span_7_of_8, .span_8_of_8 { width: 100%; }
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_5, .span_2_of_5, .span_3_of_5, .span_4_of_5, .span_5_of_5 { width: 100%; }
+}

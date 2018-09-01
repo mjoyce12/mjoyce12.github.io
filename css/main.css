@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Color Palette:
+
+#212721 - black
+#438FB2 - turquoise
+#003B56 - dark green
+*/
+
+
+html, body {
+    height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+body  {
+margin: 0;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 13pt;
+line-height: 120%;
+font-style: normal;
+color: #212721;
+vertical-align: top;
+text-align: left;
+background-color:#FFF;
+padding:0px;
+}
+
+H1, H2, H3, H4, H5, H6 { font-family: 'Source Sans Pro', sans-serif;	}
+H1 {
+font-size: 180%;
+letter-spacing:1px;
+line-height:190%;
+font-weight:300;
+vertical-align:bottom;
+}
+
+H2 {
+font-size: 160%;
+text-transform:uppercase;
+font-weight:400;
+letter-spacing:1px;
+line-height: 130%;
+margin-bottom:0px;
+}
+
+H3 {
+font-size: 140%;
+font-weight: 400;
+line-height: 120%;
+}
+
+
+H4 {
+font-size: 110%;
+font-weight:600;
+}
+
+/** New Tools Area Layout **/
+
+#layout 
+{
+    display: flex;
+    margin-top: 80px;
+}
+
+#layout .content {
+    flex: 1;
+    margin: 0 20px;
+}
+
+#layout .content #container
+{
+	margin-top: 0;
+}
