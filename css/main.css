@@ -96,6 +96,11 @@ font-weight:600;
 	letter-spacing: 1px;
 }
 
+#leftnav a {
+    color: #ABD3EB;
+    text-decoration: none;
+}
+
 .blue_panel {
 background-color: #ABD3EB;
 width: 100%;
