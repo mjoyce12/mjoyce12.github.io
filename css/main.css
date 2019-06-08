@@ -194,10 +194,11 @@ padding: 20px 50px;
 }
 
 .gray_panel {
-background-color: #eee;
-width: 100%;
-margin: 0px;
-padding: 20px 40px;
-min-height: auto;
-	
+    background-color: #eee;
+    width: 100%;
+    margin: 0px;
+    padding: 20px 40px;
+    min-height: auto;
+    line-height: 140%;
+    font-size: 115%;
 }
