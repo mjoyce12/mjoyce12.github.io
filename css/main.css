@@ -48,12 +48,12 @@ line-height: 100%;
 }
 
 H2 {
-font-size: 180%;
+font-size: 152%;
 font-weight:400;
 letter-spacing:1px;
 margin-bottom:0px;
 color: #0A97E8;
-line-height: 100%;
+line-height: 130%;
 }
 
 H3 {
@@ -96,11 +96,12 @@ font-weight:600;
 	letter-spacing: 1px;
 }
 
-#leftnav a {
-    color: #ABD3EB;
-    text-decoration: none;
+#leftnav a{
+	color:#ABD3EB;
+	text-decoration: none;
+	text-transform: uppercase;
+	
 }
-
 .blue_panel {
 background-color: #ABD3EB;
 width: 100%;
@@ -177,5 +178,10 @@ line-height: 130%;
     float: left;
     margin-right: 15px;
     margin-top: -10px;
-	margin-bottom: 15px
+	margin-bottom: 25px
+}
+
+#title {
+	color: #fff;
+	margin-top: 250px;
 }
