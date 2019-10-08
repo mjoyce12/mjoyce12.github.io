@@ -190,6 +190,7 @@ line-height: 130%;
 width: 100%;
 margin: 0px;
 padding: 20px 50px;
+background: #DBE5E9
 	
 }
 
@@ -197,7 +198,7 @@ padding: 20px 50px;
     background-color: #eee;
     width: 100%;
     margin: 0px;
-    padding: 20px 40px;
+    padding: 20px 100px;
     min-height: auto;
     line-height: 140%;
     font-size: 115%;
