@@ -190,15 +190,24 @@ line-height: 130%;
 width: 100%;
 margin: 0px;
 padding: 20px 50px;
-background: #DBE5E9
+background: #DBE5E9;
 	
 }
 
 .gray_panel {
-    background-color: #eee;
+    background-color:  #DBE5E9;
     width: 100%;
     margin: 0px;
     padding: 20px 100px;
+    min-height: auto;
+    line-height: 140%;
+    font-size: 115%;
+}
+.white_panel {
+    background-color:#fff;
+    width: 100%;
+    margin: 0px;
+    padding: 10px 40px;
     min-height: auto;
     line-height: 140%;
     font-size: 115%;
