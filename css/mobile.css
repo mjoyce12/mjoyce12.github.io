@@ -12,14 +12,14 @@
 
 /*  GO FULL WIDTH BELOW 800 PIXELS */
 @media only screen and (max-width: 800px) {
-	.photo img{
+.photo img{
 	width:	100px;
 	}
 	
-	#leftnav {
-    width: 120px;
+#leftnav {
+    width: 180px;
     padding: 12px;
-    font-size: 80%;
+    font-size: 70%;
 }
 	
 	.blue_panel {
@@ -36,7 +36,59 @@
 	.box h3 {
     font-size: 100%;
 	}
+	
+	#info {
+	margin-top: 120px;
+}
 
+#header h1{
+ 	font-size: 200%;
+	font-weight: 500;
+	
+}	
+
+#header h2 {
+		font-size: 100%
+	}
+	
+.col.span_1_of_2
+	{
+		width: 100%;
+	}
+
+.col.span_1_of_3
+	{
+		width: 100%;
+	}
+	
+.col.span_2_of_3 {
+
+    width: 100%;
+
+}
+
+.col.span_1_of_4 {
+
+    width: 100%;
+
+}
+
+.gray_panel {
+	padding: 12px 20px;
+	font-size: 100%;
+	}
+	
+.white_panel {
+	padding: 12px 20px;
+	font-size: 100%;
+	}	
+#header_panel {
+padding: 20px;
+	
+}	
+	
+
+}
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }

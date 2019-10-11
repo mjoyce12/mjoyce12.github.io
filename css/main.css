@@ -21,8 +21,8 @@ html, body {
 
 body  {
 margin: 0;
-font-family: 'Yanone Kaffeesatz', sans-serif;	
-font-size: 13pt;
+font-family: 'Roboto', sans-serif;	
+font-size: 11pt;
 line-height: 120%;
 font-style: normal;
 color: #212721;
@@ -33,11 +33,12 @@ padding:0px;
 }
 
 H1, H2, H3, H4, H5, H6 { 
-font-family: 'Yanone Kaffeesatz', sans-serif;	
+font-family: 'Yanone Kaffeesatz', sans-serif;
+letter-spacing: 1px;
 }
 
 H1 {
-font-size: 400%;
+font-size: 420%;
 letter-spacing:3px;
 text-transform:uppercase;
 font-weight:300;
@@ -48,7 +49,7 @@ line-height: 100%;
 }
 
 H2 {
-font-size: 152%;
+font-size: 170%;
 font-weight:400;
 letter-spacing:1px;
 margin-bottom:0px;
@@ -57,7 +58,7 @@ line-height: 130%;
 }
 
 H3 {
-font-size: 140%;
+font-size: 150%;
 font-weight: 400;
 line-height: 120%;
 }
@@ -68,7 +69,28 @@ font-size: 110%;
 font-weight:600;
 }
 
-/** New Tools Area Layout **/
+a:link {
+	color:#0A97E8;
+	text-decoration: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 120%;
+}
+
+a:visited {
+	color: #0A97E8;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0A97E8;
+	text-decoration: underline;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+a.button {
+    color: #fff;
+    font-weight: 500;
+}
 
 #layout 
 {
@@ -91,9 +113,10 @@ font-weight:600;
     color: #ABD3EB;
     width: 300px;
     padding: 20px;
-	font-size: 120%;
+	font-size: 130%;
 	font-weight: 300;
 	letter-spacing: 1px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;	
 }
 
 #leftnav a{
@@ -186,7 +209,7 @@ line-height: 130%;
 	margin-top: 250px;
 }
 
-#map_panel {
+#header_panel {
 width: 100%;
 margin: 0px;
 padding: 20px 50px;
@@ -194,21 +217,40 @@ background: #DBE5E9;
 	
 }
 
+
+
 .gray_panel {
     background-color:  #DBE5E9;
     width: 100%;
     margin: 0px;
-    padding: 20px 100px;
+    padding: 20px 100px 50px 50px;
     min-height: auto;
     line-height: 140%;
     font-size: 115%;
 }
+
 .white_panel {
-    background-color:#fff;
+    background-color:#ededed;
     width: 100%;
     margin: 0px;
     padding: 10px 40px;
     min-height: auto;
     line-height: 140%;
     font-size: 115%;
+}
+
+#info {
+	margin-top: 300px
+}
+
+.button {
+    background: #37475A;
+    color: #fff;
+    padding: 12px;
+    border-radius: 4px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+	margin-top: 12px;
 }
