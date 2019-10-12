@@ -12,8 +12,9 @@
 
 /*  GO FULL WIDTH BELOW 800 PIXELS */
 @media only screen and (max-width: 800px) {
-.photo img{
-	width:	100px;
+#leftnav .photo img {
+width: 100px;
+height: 100px;
 	}
 	
 #leftnav {
@@ -22,7 +23,13 @@
     font-size: 70%;
 }
 	
-	.blue_panel {
+#leftnav img {
+    height: 14px;
+}
+	
+	
+	
+.blue_panel {
     width: 100%;
     padding: 20px 20px;
 }

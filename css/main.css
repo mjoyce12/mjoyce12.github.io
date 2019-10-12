@@ -125,6 +125,12 @@ a.button {
 	text-transform: uppercase;
 	
 }
+
+#leftnav img {
+	height: 22px;
+	width: auto;
+	
+}
 .blue_panel {
 background-color: #ABD3EB;
 width: 100%;
@@ -157,13 +163,15 @@ margin-right: 12px;
 
 .photo {
 width: 300px;
+height: 300px;
 position: absolute;
 top: 20px;
 display: block;
 }
 
-.photo img {
+#leftnav .photo img {
 width: 250px;
+height: 250px;
 border-radius: 50%;
 display: block;
 }
