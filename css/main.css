@@ -138,6 +138,7 @@ width: 100%;
 margin: 0px;
 padding: 20px 50px;
 min-height: 400px;
+font-size: 115%;
 	
 }
 
@@ -226,9 +227,17 @@ background: #DBE5E9;
 	
 }
 
-
-
 .gray_panel {
+    background-color:  #EEE;
+    width: 100%;
+    margin: 0px;
+    padding: 20px 100px 50px 50px;
+    min-height: auto;
+    line-height: 140%;
+    font-size: 115%;
+}
+
+.blue_gray_panel {
     background-color:  #DBE5E9;
     width: 100%;
     margin: 0px;
@@ -239,7 +248,7 @@ background: #DBE5E9;
 }
 
 .white_panel {
-    background-color:#ededed;
+    background-color:#FFF;
     width: 100%;
     margin: 0px;
     padding: 10px 40px;
@@ -248,6 +257,9 @@ background: #DBE5E9;
     font-size: 115%;
 }
 
+.box p {
+    font-size: 90%;
+}
 #info {
 	margin-top: 300px
 }
