@@ -275,3 +275,8 @@ background: #DBE5E9;
     text-decoration: none;
 	margin-top: 12px;
 }
+
+.box2 {
+	display: block;
+	width: 300px;
+}
