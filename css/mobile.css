@@ -3,12 +3,12 @@
 
 /*  GO FULL WIDTH BELOW 1200 PIXELS */
 @media only screen and (max-width: 1200px) {
-	#content{
+	#content  {
 	width:	100%;
-	padding: 20px;
+	padding: 20px;	
 	}
+	
 }
-
 
 /*  GO FULL WIDTH BELOW 800 PIXELS */
 @media only screen and (max-width: 800px) {

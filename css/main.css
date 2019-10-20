@@ -2,14 +2,6 @@
 /* CSS Document */
 
 
-/* Color Palette:
-
-#212721 - black
-#438FB2 - turquoise
-#003B56 - dark green
-*/
-
-
 html, body {
     height: 100%;
 }
@@ -146,8 +138,10 @@ font-size: 115%;
 width: 100%;
 }
 
-#content {
-padding: 15px 50px;
+.sub_content {
+    padding: 10px;
+    width: 1200px;
+    margin: auto;
 }
 
 .box{
@@ -279,4 +273,48 @@ background: #DBE5E9;
 .box2 {
 	display: block;
 	width: 300px;
+}
+
+#utility_bar {
+width: 100%;
+height: 50px;
+background-color: #37475A;
+color: #ABD3EB;
+padding-top: 10px;
+}
+
+
+#utility_bar img {
+    margin-right: 7px;
+    margin-left: 12px;
+}
+
+#utility_bar i {
+    margin-right: 7px;
+    margin-left: 12px;
+}
+#utility_bar h1 {
+	font-size: 130%;
+	color: #fff;
+	margin-top: 5px;
+	margin-left: 120px;
+}
+
+#utility_bar .photo img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-right: 50px;
+}
+.nav_links a {
+	color:#ABD3EB;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+.nav_links {
+    float: right;
+    padding-right: 40px;
+    margin-top: -20px;
 }
