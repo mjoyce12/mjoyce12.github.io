@@ -2,10 +2,19 @@
 /* CSS Document */
 
 /*  GO FULL WIDTH BELOW 1200 PIXELS */
+@media only screen and (max-width: 1400px) {
+
+#content {
+    width: 900px;
+    margin: auto;
+}
+	}
+	
+/*  GO FULL WIDTH BELOW 1200 PIXELS */
 @media only screen and (max-width: 1200px) {
-	#content  {
+#content  {
 	width:	100%;
-	padding: 20px;	
+	margin: 20px;	
 	}
 	
 .sub_content {
