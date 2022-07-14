@@ -42,6 +42,13 @@ display: block;
 margin: auto;
 }
 
+#sm_image {
+width: 720px;
+height: auto;	
+display: block;
+margin: auto;
+}
+
 
 H1, H2, H3, H4, H5, H6 { 
 font-family: 'Montserrat', sans-serif;
@@ -246,16 +253,21 @@ margin-bottom: 20px;
   box-shadow: 0 1px 2px rgba(0,0,0, .2) inset;
 }
 
-.btn--blue {
-  background: #2980b9;
+.btn-g {
+  cursor: pointer;
+  background: #333;
+    display: inline-block;
+  padding: 12px;
+  color: #fff;
+  border-radius: 8px;
 }
 
-.btn--blue:hover,
-.btn--blue:focus {
+.btn-g:hover,
+.btn-g:focus {
   background: #3498db;
 }
 
-.btn--blue:active {
-  background: #2980b9;
+.btn-g:active {
+  background: #333;
 }
 
